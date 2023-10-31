@@ -20,6 +20,6 @@ Bij Webcrafters begrijpen we dat de digitale wereld voortdurend evolueert en com
 
 Wil je meer weten over onze diensten of heb je specifieke vragen? Aarzel niet om contact met ons op te nemen. Ons deskundige team staat klaar om je te helpen.
 
-[Neem contact op](/resources/views/contact)
+[Neem contact op](/resources/views/contact.blade.php)
 
 © 2023 Webcrafters. Alle rechten voorbehouden.
