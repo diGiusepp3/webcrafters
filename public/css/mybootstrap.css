@@ -324,7 +324,7 @@
 }
 
 /* Shadow */
-.shadow-primary {
+.shadow {
   box-shadow: 0 0.5em 1em -0.125em rgba(5, 68, 94, 0.1), 0 0 0 1px rgba(5, 68, 94, 0.02);
 }
 
@@ -503,6 +503,11 @@
 
 .lh-5 {
   line-height: 5;
+}
+
+/* hover */
+.hover {
+  opacity: 0.5;
 }
 
 /* Lists*/

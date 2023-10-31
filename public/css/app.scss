@@ -24,9 +24,25 @@ a {
     color: white;
     text-decoration: none;
     transition-duration: .3s;
-    &:hover {
-        color: $secondary;
-        transition-duration: .3s;
+}
+
+/* Nav */
+nav {
+    color: $fourth;
+}
+
+/* blocks */
+.blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+
+    .block {
+        border-radius: 2em;
+        background: $primary;
+        padding: 2em;
+        color: $fourth;
     }
 }
 

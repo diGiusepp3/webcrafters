@@ -20,9 +20,24 @@ a {
   text-decoration: none;
   transition-duration: 0.3s;
 }
-a:hover {
-  color: #189AB4;
-  transition-duration: 0.3s;
+
+/* Nav */
+nav {
+  color: #D4F1F4;
+}
+
+/* blocks */
+.blocks {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1em;
+}
+.blocks .block {
+  border-radius: 2em;
+  background: #05445E;
+  padding: 2em;
+  color: #D4F1F4;
 }
 
 /*# sourceMappingURL=app.css.map */

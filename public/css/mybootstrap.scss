@@ -332,7 +332,7 @@ $fourth: #D4F1F4;
 }
 
 /* Shadow */
-.shadow-primary {
+.shadow {
     box-shadow: 0 0.5em 1em -0.125em rgba($primary, 0.1), 0 0 0 1px rgba($primary, 0.02);
 }
 
@@ -480,10 +480,14 @@ $fourth: #D4F1F4;
     line-height: 5;
 }
 
-
+/* hover */
+.hover {
+    opacity: .5;
+}
 
 /* Lists*/
 .li-style-none {
     list-style: none;
 }
+
 
