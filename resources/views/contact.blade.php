@@ -1,3 +1,3 @@
 @extends('master')
 
-@yield('content')
+@section('content')

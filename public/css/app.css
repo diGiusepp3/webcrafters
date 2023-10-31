@@ -24,19 +24,19 @@ a:hover {
   color: #189AB4;
 }
 
-/* Nav */
-nav {
-  display: none;
+/* Header */
+.header {
+  background-color: #05445E;
+  padding: 20px 0;
 }
 
-@media (min-width: 800px) {
-  nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    color: #D4F1F4;
-  }
+/* Nav */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 /* blocks */
 .blocks {
   display: flex;
@@ -49,6 +49,11 @@ nav {
   background: #05445E;
   padding: 2em;
   color: #D4F1F4;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=app.css.map */

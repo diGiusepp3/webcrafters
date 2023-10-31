@@ -29,17 +29,18 @@ a {
     }
 }
 
+/* Header */
+
+.header {
+    background-color: $primary;
+    padding: 20px 0;
+}
+
 /* Nav */
 nav {
-    display: none;
-}
-@media (min-width: 800px) {
-    nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        color: $fourth;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 
@@ -58,7 +59,10 @@ nav {
     }
 }
 
-
+footer {
+    position: absolute;
+    bottom: 0;
+}
 
 
 

@@ -13,18 +13,15 @@
     <link rel="stylesheet" href="{{ asset('css/app.min.css') }}">
 </head>
 <body>
-<header class="w-100 d-flex flex-row bg-primary align-center">
-    @include('menu')
-</header>
+
+@include('header')
 
 <div class="content">
     @yield('content')
 </div>
-<footer class="w-100 d-flex flex-row justify-content-between bg-primary text-white text-center">
-    <div class="copyright text-center w-100">
-        <small>&copy; Copyright {{Date('Y')}} Webcrafters<br> Made with Laravel</small>
-    </div>
-</footer>
+
+@include('footer')
+
 </body>
 </html>
 
