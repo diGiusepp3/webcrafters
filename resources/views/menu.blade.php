@@ -3,7 +3,7 @@
         <img class="w-50 m-auto p-0" src="{{asset('images/logo.svg')}}" alt="logo">
     </a>
 </div>
-<nav class="topNav w-90 p-1 d-flex flex-row">
+<nav class="topNav w-90">
     <div class="menu w-100">
         <nav>
             <ul class="li-style-none d-flex flex-row justify-between text-white">

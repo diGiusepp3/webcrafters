@@ -20,12 +20,23 @@ a {
   text-decoration: none;
   transition-duration: 0.3s;
 }
+a:hover {
+  color: #189AB4;
+}
 
 /* Nav */
 nav {
-  color: #D4F1F4;
+  display: none;
 }
 
+@media (min-width: 800px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: #D4F1F4;
+  }
+}
 /* blocks */
 .blocks {
   display: flex;

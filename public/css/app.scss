@@ -24,12 +24,24 @@ a {
     color: white;
     text-decoration: none;
     transition-duration: .3s;
+    &:hover {
+        color: $secondary;
+    }
 }
 
 /* Nav */
 nav {
-    color: $fourth;
+    display: none;
 }
+@media (min-width: 800px) {
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        color: $fourth;
+    }
+}
+
 
 /* blocks */
 .blocks {
