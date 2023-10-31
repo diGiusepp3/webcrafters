@@ -32,7 +32,7 @@ use Illuminate\Http\Request;
     Route::get('/services', function () {
         return view('/menu/services', [
             'pagetitle' => 'Onze Diensten',
-            'description' => 'Onze diensten.', // Voeg hier de beschrijving van je diensten toe.
+            'description' => 'Onze diensten.', // todo: inhoud diensten invoegen.
             'keywords' => 'Webcrafters, Diensten, digitaal, applicaties'
         ]);
     });
@@ -40,7 +40,7 @@ use Illuminate\Http\Request;
     Route::get('/contact', function () {
         return view('/menu/contact', [
             'pagetitle' => 'Contacteer Ons',
-            'description' => 'Contacteer ons.', // Voeg hier de contactinformatie of een contactformulier toe.
+            'description' => 'Contacteer ons.', //todo: inhoud Contact invoegen.
             'keywords' => 'Webcrafters, Contact, digitaal, applicaties'
         ]);
     });
