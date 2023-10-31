@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.3s;
+}
+a:hover {
+  color: #189AB4;
+  transition-duration: 0.3s;
+}
+
+/*# sourceMappingURL=app.css.map */
