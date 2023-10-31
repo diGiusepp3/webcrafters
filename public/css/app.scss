@@ -43,9 +43,14 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    a {
-        width: 15%;
+    a{
+        width: auto;
+        margin: auto;
     }
+}
+
+.userMenu {
+    display: none;
 }
 
 

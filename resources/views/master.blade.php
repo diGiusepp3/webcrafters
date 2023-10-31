@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="{{ asset('css/mybootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.min.css') }}">
     <!-- Scripts -->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="{{ asset('jquery/jquery-3.7.0.js') }}"></script>
+    <script src="{{ asset('js/app.min.js') }}"></script>
 </head>
 <body>
 

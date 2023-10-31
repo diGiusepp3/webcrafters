@@ -39,7 +39,12 @@ nav {
   justify-content: center;
 }
 nav a {
-  width: 15%;
+  width: auto;
+  margin: auto;
+}
+
+.userMenu {
+  display: none;
 }
 
 /* blocks */
