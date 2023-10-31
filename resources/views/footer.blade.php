@@ -4,3 +4,11 @@
         <small>&copy; Copyright {{Date('Y')}} Webcrafters<br> Made with Laravel</small>
     </div>
 </footer>
+<script>
+    // jQuery-functie om het gebruikersmenu te tonen/verbergen
+    $(document).ready(function() {
+        $("#toggleUserMenuButton").click(function() {
+            $("#userMenu").toggle();
+        });
+    });
+</script>

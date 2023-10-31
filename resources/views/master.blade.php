@@ -9,8 +9,11 @@
     </title>
     <meta name="keywords" content="@yield('keywords', 'Webcrafters, Web, applicaties, websites, ontwerp')">
     <meta name="description" content="@yield('description', 'Webcrafters, Waar uw idee digitaal gaat')">
+    <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/mybootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/app.min.css') }}">
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 </head>
 <body>
 
@@ -22,6 +25,7 @@
 
 @include('footer')
 
+<script src="https://kit.fontawesome.com/47e0e02f23.js" crossorigin="anonymous"></script>
 </body>
 </html>
 

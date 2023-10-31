@@ -22,4 +22,8 @@ Wil je meer weten over onze diensten of heb je specifieke vragen? Aarzel niet om
 
 [Neem contact op](/resources/views/contact.blade.php)
 
-© 2023 Webcrafters. Alle rechten voorbehouden.
+
+## Inhoud
+
+De "toggleUserMenu()" functie wordt aangeroepen wanneer op het gebruikerspictogram wordt geklikt.
+De href is ingesteld op javascript:void(0); zodat de pagina niet refreshed

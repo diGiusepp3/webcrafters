@@ -1,3 +1,4 @@
+<!-- Header.blade.php -->
 <header class="w-100 d-flex flex-row bg-primary align-center">
     <div class="logo w-10">
         <a href="/">
@@ -9,9 +10,11 @@
          <a href="/about">Over ons</a>
          <a href="/services">Diensten</a>
          <a href="/contact">Contact</a>
-
     </nav>
-    <div class="userMenu">
+    <a onclick="toggleUserMenu()" href="javascript:void(0);">
+        <i class="fas fa-user text-white"></i>
+    </a>
+    <div class="userMenu w-10 d-none">
 
     </div>
 </header>
