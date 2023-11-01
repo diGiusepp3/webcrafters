@@ -4,4 +4,34 @@
         <small>&copy; Copyright {{Date('Y')}} Webcrafters<br> Made with Laravel</small>
     </div>
 </footer>
+<script>
+    function toggleUserMenu() {
+        var userMenu = $('.userMenu');
+        var userMenuButton = $('.dropdown-toggle');
+        if (userMenu.css('display') === 'none') {
+            userMenu.css('display', 'flex');
+            userMenu.addClass('d-flex flex-column');
+            userMenuButton.css('display', 'none');
+            $(document).on('click', function(event) {
+                if (!$(event.target).closest('.dropdown').length) {
+                    userMenu.css('display', 'none');
+                    userMenuButton.css('display', 'block');
+                }
+            });
+        } else {
+            userMenu.css('display', 'none');
+            userMenuButton.css('display', 'block');
+            $(document).off('click');
+        }
+    }
+
+    $(document).ready(function() {
+        $('#toggleUserMenuButton').click(function(event) {
+            event.stopPropagation();
+            toggleUserMenu();
+        });
+    });
+</script>
+
+
 

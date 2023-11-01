@@ -45,3 +45,11 @@ use Illuminate\Http\Request;
         ]);
     });
 
+    Route::get('/login', function () {
+        return view('/functions/login', [
+            'pagetitle' => 'Inloggen',
+            'description' => 'Inloggen.', //todo: inhoud inloggen invoegen.
+            'keywords' => 'Webcrafters, Inloggen, digitaal, applicaties'
+        ]);
+    });
+
