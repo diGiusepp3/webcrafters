@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/httpsdocs" isTestSource="false" packagePrefix="PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/httpsdocs/assets" isTestSource="false" packagePrefix="PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/httpsdocs/assets/classes" isTestSource="false" packagePrefix="PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/httpsdocs/old/pages/coming-soon/assets" isTestSource="false" packagePrefix="PHPMailer" />
+      <sourceFolder url="file://$MODULE_DIR$/httpsdocs/classes/MollieAPI/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/httpsdocs/old/classes/MollieAPI/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/httpsdocs/tests/Feature" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/httpsdocs/tests/Unit" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/httpsdocs/old/pages/sitemap/generatedSitemaps" />
+      <excludeFolder url="file://$MODULE_DIR$/httpsdocs/old/test/video,s" />
+      <excludeFolder url="file://$MODULE_DIR$/httpsdocs/classes/MollieAPI/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/httpsdocs/old/classes/MollieAPI/vendor/composer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

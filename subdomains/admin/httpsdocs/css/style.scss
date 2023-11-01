@@ -1,0 +1,17 @@
+$primary: #055160;
+$primaryOpacity: #05516055;
+
+
+.flatpickr-calendar {
+  .has-appointment {
+    background-color: $primaryOpacity; /* Achtergrondkleur voor dagen met afspraken */
+    color: #333; /* Tekstkleur voor dagen met afspraken */
+    font-weight: bold; /* Vetgedrukte tekst voor dagen met afspraken */
+  }
+}
+.flatpickr-calendar.inline .flatpickr-day.selected, .flatpickr-calendar.inline .flatpickr-day.selected:focus, .flatpickr-calendar.inline .flatpickr-day.selected:hover {
+  background: $primary;
+  color: white;
+  border-color: lightgreen;
+}
+
